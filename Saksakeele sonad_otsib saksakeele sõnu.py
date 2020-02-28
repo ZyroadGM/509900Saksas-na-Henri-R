@@ -12,9 +12,9 @@ for line in fr:
     print(words.split(",", 1)[0])
 print("Sõnasi umbes: " + str(count))
 
-fr2.close
-fr.close
-fa.close
+fr2.close()
+fr.close()
+fa.close()
 
 """
 See on programm on mis convertib webilehelt saadud andmed fili(Saksakeele sonad_500 000+ sona.txt)!
